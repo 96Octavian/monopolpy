@@ -1,14 +1,69 @@
 {
   "Contratti": {
+    "Vicolo Corto": {
+      "Prezzo": 150,
+      "Rendite": [ 5, 25, 75, 225, 400, 625 ],
+      "Costo": 125
+    },
     "Vicolo Stretto": {
-      "Prezzo": 50,
-      "Case": 0,
-      "Max_Case": 4,
-      "Alberghi": 0,
-      "Max_Alberghi": 1,
-      "Proprietario": "Banca"
+      "Prezzo": 150,
+      "Rendite": [ 10, 50, 150, 450, 800 ],
+      "Costo": 125
+    },
+    "Bastioni Gran Sasso": {
+      "Prezzo": 250,
+      "Rendite": [ 15, 75, 225, 675, 100, 1375 ],
+      "Costo": 125
+    },
+    "Viale Monterosa": {
+      "Prezzo": 250,
+      "Rendite": [ 15, 75, 225, 675, 100, 1375 ],
+      "Costo": 125
+    },
+    "Viale Vesuvio": {
+      "Prezzo": 300,
+      "Rendite": [ 20, 100, 250, 750, 1125, 1500 ],
+      "Costo": 125
+    },
+    "Via Accademia": {
+      "Prezzo": 350,
+      "Rendite": [ 23, 125, 375, 1125, 1550, 1875 ],
+      "Costo": 250
+    },
+    "Corso Ateneo": {
+      "Prezzo": 350,
+      "Rendite": [ 23, 125, 375, 1125, 1550, 1875 ],
+      "Costo": 250
+    },
+    "Piazza Università": {
+      "Prezzo": 400,
+      "Rendite": [ 30, 150, 450, 1250, 1750, 2250 ],
+      "Costo": 250
+    },
+    "Via Verdi": {
+      "Prezzo": 450,
+      "Rendite": [ 35, 175, 500, 1375, 1875, 2375 ],
+      "Costo": 250
+    },
+    "Corso Raffaello": {
+      "Prezzo": 450,
+      "Rendite": [ 35, 175, 500, 1375, 1875, 2375 ],
+      "Costo": 250
+    },
+    "Piazza Dante": {
+      "Prezzo": 500,
+      "Rendite": [ 40, 200, 550, 1500, 2000, 2500 ],
+      "Costo": 250
+    },
+    "Via Marco Polo": {
+      "Prezzo": 550,
+      "Rendite": [ 45, 225, 625, 1750, 2200, 2625 ],
+      "Costo": 125
+    },
+    "Corso Magellano": {
+      "Prezzo": 550,
+      "Rendite": [ 45, 225, 625, 1750, 2200, 2625 ],
+      "Costo": 125
     }
-  },
-  "Posizione": {},
-  "Giocatori": {}
+  }
 }

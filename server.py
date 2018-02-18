@@ -15,22 +15,25 @@ class player:
 		self.money+=amount
 		print("{} received {}€, now he's got {}€".format(self.name, amount, self.money))
 class property:
-	# We will need name, owner=bank, amount, house cost and fee and hotel cost and fee
+	# We will need name, owner=bank, cost, house fee and hotel fee, cost
 	def __init__(self, name, owner):
 		self.name = name
 		self.owner = owner
 		self.houses = 0
 		self.hotels = 0
-		self.amount = 50
+		self.cost = 50
 	def onPass(self, passing):
 		print ("{} stepped on {}".format(passing.name, self.name))
 		if passing.name != self.owner.name:
-			#amount da calcolare in base alle case
+			#cost da calcolare in base alle case
 			print("{} is not the owner of {}, he's gonna pay".format(passing.name, self.name))
-			if passing.pay(self.amount) == self.amount:
-				self.owner.receive(self.amount)
+			if passing.pay(self.cost) == self.cost:
+				self.owner.receive(self.cost)
 		else:
 			print("{} is the owner of {}, he's not gonna pay".format(passing.name, self.name))
+
+# First step is to create an instance for every property owned by the Bank
+# Then every player will get his money and contracts
 
 ciccio = player("ciccio")
 bank = player("bank")
