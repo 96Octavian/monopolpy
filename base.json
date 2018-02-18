@@ -1,0 +1,14 @@
+{
+  "Contratti": {
+    "Vicolo Stretto": {
+      "Prezzo": 50,
+      "Case": 0,
+      "Max_Case": 4,
+      "Alberghi": 0,
+      "Max_Alberghi": 1,
+      "Proprietario": "Banca"
+    }
+  },
+  "Posizione": {},
+  "Giocatori": {}
+}
