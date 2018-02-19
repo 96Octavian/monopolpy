@@ -58,12 +58,57 @@
     "Via Marco Polo": {
       "Prezzo": 550,
       "Rendite": [ 45, 225, 625, 1750, 2200, 2625 ],
-      "Costo": 125
+      "Costo": 375
     },
     "Corso Magellano": {
       "Prezzo": 550,
       "Rendite": [ 45, 225, 625, 1750, 2200, 2625 ],
-      "Costo": 125
+      "Costo": 375
+    },
+    "Largo Colombo": {
+      "Prezzo": 600,
+      "Rendite": [ 50, 250, 750, 1875, 2250, 2750 ],
+      "Costo": 375
+    },
+    "Viale Costantino": {
+      "Prezzo": 650,
+      "Rendite": [ 55, 275, 825, 2000, 2500, 3000 ],
+      "Costo": 375
+    },
+    "Viale Traiano": {
+      "Prezzo": 650,
+      "Rendite": [ 55, 275, 825, 2000, 2500, 3000 ],
+      "Costo": 375
+    },
+    "Piazza Giulio Cesare": {
+      "Prezzo": 700,
+      "Rendite": [ 60, 300, 900, 2125, 2625, 3125 ],
+      "Costo": 375
+    },
+    "Via Roma": {
+      "Prezzo": 750,
+      "Rendite": [ 65, 325, 1000, 2250, 2750, 3250 ],
+      "Costo": 500
+    },
+    "Corso Impero": {
+      "Prezzo": 750,
+      "Rendite": [ 65, 325, 1000, 2250, 2750, 3250 ],
+      "Costo": 500
+    },
+    "Largo Augusto": {
+      "Prezzo": 800,
+      "Rendite": [ 70, 375, 1125, 2500, 3000, 3500 ],
+      "Costo": 500
+    },
+    "Viale dei Giardini": {
+      "Prezzo": 875,
+      "Rendite": [ 90, 500, 1250, 2750, 3250, 3750 ],
+      "Costo": 500
+    },
+    "Parco della Vittoria": {
+      "Prezzo": 1000,
+      "Rendite": [ 125, 500, 1500, 3500, 4250, 5000 ],
+      "Costo": 500
     }
   }
 }
